@@ -30,6 +30,7 @@ namespace HelloWebApi.Controllers
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
+            else
             return product;
         }
 
